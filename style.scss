@@ -172,3 +172,42 @@ $white: rgba(255, 255, 255, 1);
   font-weight: 500;
   line-height: normal;
 }
+
+// This is the project stylesheet
+
+// Colors
+$alice-blue: rgba(232, 241, 253, 1);
+$midnight-blue: rgba(27, 28, 64, 1);
+$steel-blue: rgba(73, 104, 173, 1);
+
+// Typographies
+@mixin mulish-14-regular {
+  font-family: "Mulish";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin mulish-18-extra-bold {
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: normal;
+}
+@mixin mulish-18-semi-bold {
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+@mixin mulish-20-semi-bold {
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+}
+@mixin mulish-36-extra-bold {
+  font-family: "Mulish";
+  font-size: 36px;
+  font-weight: 800;
+  line-height: normal;
+}
